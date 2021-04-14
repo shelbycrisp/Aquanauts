@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<!-- HEAD -->
 
+<Files *.sch>
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</Files>
+<Files *.brd>
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</Files>
+
+<!-- HEAD -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +20,10 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
-    <!-- <link href="/assets/css/cards-gallery.css" rel="stylesheet" type="text/css" /> -->
-    <script type="text/javascript" src="/assets/plugins/jquery.min.js"></script>
 </head>
 <!-- END HEAD -->
-<!-- BEGIN BODY -->
 
+<!-- BEGIN BODY -->
 <body>
     <!-- WRAPPER -->
     <div class="wrapper" style="background-color: #B3A369;">
@@ -113,6 +120,14 @@
                     <p class="style5">Comms Diagram (<a href="commsdiagram.PNG" target="blank" style="color: #004F9F">.png</a> 
                         <a href="commsdiagram.pdf" target="blank" style="color: #004F9F">.pdf</a>)
                     </p>
+                    <p class="style5">PCB Schematic (<a href="PCBschematic.sch" download="PCBschematic.sch" target="blank" style="color: #004F9F">.sch</a> 
+                        <a href="PCBschematic.PNG" target="blank" style="color: #004F9F">.png</a> 
+                        <a href="PCBschematic.pdf" target="blank" style="color: #004F9F">.pdf</a>)
+                    </p>
+                    <p class="style5">PCB Layout (<a href="PCBlayout.brd" download="PCBlayout.brd" target="blank" style="color: #004F9F">.brd</a> 
+                        <a href="PCBlayout.PNG" target="blank" style="color: #004F9F">.png</a> 
+                        <a href="PCBlayout.pdf" target="blank" style="color: #004F9F">.pdf</a>)
+                    </p>
                     <p class="style5">GitHub: <a href="https://github.com/shelbycrisp/Aquanauts"
                         target="blank" style="color: #004F9F">Click here</a>
                     </p>
@@ -128,10 +143,6 @@
         <!--========== END PAGE CONTENT ==========-->
     </div>
     <!-- END WRAPPER -->
-    <!-- <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-    <script type="text/javascript" src="/assets/scripts/app.js"></script>
-    <script type="text/javascript" src="/assets/scripts/portfolio/portfolio-4-col-grid.js"></script> -->
 </body>
 <!-- END BODY -->
 
